@@ -1,0 +1,521 @@
+.rgt-cell-header {
+    font-size: large;
+    font-weight: 600;
+}
+.checkbox {
+    margin-left: 4%;
+}
+.change-pwd-title{
+    padding-left: 3%;
+}
+.bg-clr {
+    background-color: #fff
+}
+.bg_color {
+    background-color: #003366 !important
+}
+.rgt-header-container {
+    color: black !important;
+}
+
+.rgt-container {
+    color: black !important;
+}
+
+/* Container for the top image and logo */
+.top-image-container {
+    position: relative;
+    width: 96%;
+    height: 110px; /* Further reduced height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../resources/Top.png');
+    background-size: 40% auto; /* Further reduced size of the top image */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Style for the logo image over the top image */
+.logo-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 30%; /* Further reduced width of the logo */
+    height: auto;
+}
+
+/* Additional styles to ensure responsiveness */
+@media screen and (max-width: 768px) {
+    .logo-image {
+        max-width: 30%; /* Adjust logo size for smaller screens */
+    }
+    .top-image-container {
+        height: 100px; /* Further reduced height for smaller screens if necessary */
+        background-size: 40% auto; /* Ensure top image size scales on smaller screens */
+    }
+}
+ 
+.header-section span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+  
+.font_weight_500 {
+    font-weight: 500;
+}
+  
+.font_size_large {
+    font-size: 1.2rem;
+}
+  
+
+@media (min-width: 1600px) {
+  .table_scroll {
+    height:auto !important;
+}
+}
+  
+
+.pagination-container {
+    padding: 10px 0;
+}
+  
+
+  
+.pagination-container,
+.download-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+  
+  
+/* Container for the Add User image and text */
+.add-user-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.add-user-image {
+    width: 24px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 8px;
+ 
+}
+
+.add-user-text {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #000; /* Adjust color as needed */
+    text-wrap: nowrap;
+}
+
+/* Container for the search input */
+.search-container {
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    width: 30% !important;
+    margin-left: auto;
+    border: 1px solid #939598 !important;
+    border-radius: 30px !important;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Styles for table headings */
+.table-header {
+    background-color: #003366 !important; /* Background color for the header */
+    color: #ffffff; /* Text color for the header */
+    text-align: center; /* Center-align the text in the header */
+    font-weight: 300 !important;
+    font-size: 12px;
+    border: none; /* Remove border from table headers */
+    text-align: center; /* Center-align text in headers */
+    position: -webkit-sticky;
+  position: sticky;
+  z-index: 99;
+  top: 0;
+}
+
+.table th td{
+ /* padding-left: 10px; */
+ text-align: center;
+}
+.table tbody td {
+  text-align: center;
+ }
+.table tbody tr{
+  position: relative;
+  z-index: 9;
+}
+
+/* Styles for table rows */
+.table td, .table th {
+    border: none; /* Remove border from table cells */
+    padding-left: 25px;
+    text-align: center; /* Center-align text in table cells */
+}
+
+/* Remove alternating row background */
+/* .table-striped tbody tr:nth-of-type(odd) {
+    background-color: white !important;
+    opacity: 1;
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: white !important; 
+    opacity: 1;
+} */
+
+/* Add rounded corners to the table */
+.frame_table_border {
+    border-radius: 8px; /* Adjust as needed for rounded corners */
+    overflow: hidden; /* Ensure corners are rounded correctly */
+    margin: 0px 15px 0px 10px;
+    font-size: 12px;
+
+}
+
+/* Remove any default padding or margin on table */
+.table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide the scrollbar for WebKit browsers */
+.table_scroll::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+
+
+/* Container for the download button */
+.download-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 15px; /* Add some space from the table */
+}
+
+/* Style for the download image */
+.download-image {
+    width: 24px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 8px; /* Space between image and text */
+}
+
+/* Style for the download text */
+.download-text {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #29417D; /* Adjust color as needed */
+    text-decoration: underline;
+}
+
+.rc-tree .rc-tree-treenode .rc-tree-node-content-wrapper {
+    position: relative;
+    display: inline-block;
+    height: 26px;
+    margin: 2px !important;
+    padding: 2px !important;
+    text-decoration: none;
+    vertical-align: top;
+    cursor: pointer;
+  }
+  
+  .rc-tree-node-selected {
+    background-color: #b8b8b8 !important;
+    box-shadow: 0 0 0 1px #b0afae !important;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: 0.8;
+  }
+  
+
+/* Add pointer cursor to sortable table headers */
+.sortable {
+  cursor: pointer;
+ 
+}
+/* Add pointer cursor to table rows */
+.table-row {
+  cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+  .page-link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+  }
+
+
+
+  .page-item.active .page-link {
+    background-color: rgb(255, 255, 255) !important; /* Active page color */
+    color: orange !important;
+    border-color: rgb(255, 255, 255) !important;
+  }
+
+  .page-link:focus{
+    box-shadow: none !important;
+  }
+  
+  /* Hide the default border and background */
+  .page-item .page-link {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .page-item:hover .page-link {
+    background-color: rgba(0, 0, 0, 0.1); /* Optional: Hover effect */
+  }
+
+  .calllog-container::-webkit-scrollbar-thumb{
+   background-color:#dbe2eb ;
+  }
+  .calllog-container::-webkit-scrollbar{
+    width:8px;
+   background:transparent ;
+  }
+  .calllog-container::-webkit-scrollbar-thumb{
+    background-color:#3a76c5 ;
+   }
+  .selectedCallLog::-webkit-scrollbar{
+    width:2px !important;
+   background:transparent ;
+  }
+
+  .mainContainer::-webkit-scrollbar-thumb{
+
+    background-color:#dbe2eb ;
+   }
+   .mainContainer::-webkit-scrollbar{
+    width:8px;
+    background:transparent ;
+   }
+
+
+   @media (max-height: 768px) {
+    .mainContainer {
+      max-height: 350px !important;
+      overflow-y: auto !important;
+    }
+  }
+  
+  /* For larger screens */
+  @media (min-height: 769px) {
+    .mainContainer {
+      max-height: none !important;
+      overflow-y: auto !important; 
+    }
+  }
+
+
+  .input-group {
+    position: relative;
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    width: 160px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -86%;
+    left: 25%;
+    margin-left: -80px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .input-group:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+    .top-image-container-dashboard-calllog {
+    position: relative;
+    width: 82%;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../resources/Top.png');
+    background-size: 40% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -35px;
+    z-index: 99;
+    left: 168px;
+    }
+
+
+    @media (max-width: 800px) {
+        .top-image-container-dashboard-calllog{
+           top: -47px;
+            left: -40px;
+            background-size: 52% auto;
+        }
+      }
+      
+      @media (max-width: 750px) {
+        .top-image-container-dashboard-calllog {
+           top: -48px;
+            left: -35px;
+            background-size: 52% auto;
+        }
+      }
+      
+      
+      
+      @media (max-width: 400px) {
+        .top-image-container-dashboard-calllog{
+           top: -45px;
+            left: -30px;
+            display: none;
+            background-size: 40% auto;
+        }
+      }
+      
+      @media (min-width: 1800px) {
+        .top-image-container-dashboard-calllog{
+           height: 147px !important;
+        }
+      }
+      @media (min-width: 1800px) {
+        .top-image-container{
+           height: 147px !important;
+           left:78px !important;
+           width: 74% !important;
+        }
+      }
+      @media (min-width: 1800px) {
+        .operatorEdit{
+          top: 70px;
+          position: relative;
+        }
+      }
+      @media (min-width: 1800px) {
+        .operatorEdit{
+          top: 70px;
+          position: relative;
+        }
+      }
+      @media (min-width: 1800px) {
+        .top-image-container-operatoredit{
+           height: 147px !important;
+           position:absolute !important;
+           left:78px !important;
+           width: 74% !important;
+           display: flex;
+           top:-105px !important;
+           justify-content: center;
+           align-items: center;
+           background-image: url('../resources/Top.png');
+           background-size: 40% auto;
+           background-position: center;
+           background-repeat: no-repeat;
+        }
+      }
+
+      .top-image-container-operatoredit {
+        position: relative;
+          width: 99%;
+          height: 109px;
+          display: flex;
+          top: -39px;
+          left: -62px;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../resources/Top.png');
+        background-size: 40% auto; /* Further reduced size of the top image */
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+/* Operator.css (or a separate CSS file) */
+
+.edit-user {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-user h2 {
+  color: #343a40;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.edit-user h5 {
+  color: #495057;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 5px;
+}
+
+.edit-user input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.edit-user label {
+  font-size: 16px;
+  color: #212529;
+}
+
+.edit-user .col-md-4 {
+  margin-bottom: 20px;
+}
+
+.edit-user .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-user .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.edit-user .container-fluid {
+  padding: 20px;
+}
+
+.edit-user .row {
+  margin-bottom: 30px;
+}

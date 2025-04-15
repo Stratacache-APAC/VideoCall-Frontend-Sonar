@@ -1,0 +1,41 @@
+.group_call_button {
+  border-radius: 50px;
+  outline: none;
+  /* border: 1px solid #e6e5e8; */
+  font-size: 16px;
+  padding: 10px 10px;
+  width: 102px;
+  transition: 0.3s;
+  position: absolute;
+  z-index: 99;
+  left: 89%;
+  bottom: 25%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .group_call_button {
+      left: 14%;
+      bottom: 3%;
+  }
+}
+@media (max-width: 500px) {
+  .group_call_button {
+      left: 14%;
+      bottom: 3%;
+  }
+}
+
+/* .group_call_button:hover {
+  background-color: #8706f0;
+  opacity: 0.5;
+} */
+.group_call_button:hover {
+  /* background-color: #8706f0; */
+  cursor: pointer;
+  transition: border 0.3s ease-out;
+  opacity: 0.5;
+}

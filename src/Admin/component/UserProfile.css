@@ -1,0 +1,157 @@
+.user-profile-container {
+    width: 93%;
+    height: 479px !important;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    top: -48px;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.user-profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-profile-header h2 {
+    font-size: 24px;
+    color: #f5a623;  /* Color similar to the title in your image */
+    margin: 0;
+}
+
+.user-profile-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    font-weight: bold;
+    color: #1d2d5f;  /* Dark blue for the label */
+    margin-bottom: 5px;
+}
+
+.form-section input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #555;
+}
+
+.password-section {
+    display: flex;
+    align-items: center;
+}
+
+.password-section button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    color: #1d2d5f;
+    cursor: pointer;
+}
+
+.user-profile-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.save-btn {
+    background-color: #f5a623;
+    border: none;
+    padding: 10px 20px;
+    color: #29417D;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 900;
+    width: 145px;
+    height: 39px;
+    margin-top: 42px;
+    font-size: 16px;
+}
+
+
+.top-image-container-userprofile {
+    position: relative;
+    width: 80%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../resources/Top.png');
+    background-size: 40% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -11px;
+    z-index: 9;
+    left: 124px;
+      
+  }
+  
+  @media (max-width: 800px) {
+    .top-image-container-userprofile {
+       top: -47px;
+        left: -40px;
+        background-size: 52% auto;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .top-image-container-userprofile{
+       top: -48px;
+        left: -35px;
+        background-size: 52% auto;
+    }
+  }
+  
+  
+  
+  @media (max-width: 400px) {
+    .top-image-container-userprofile {
+       top: -45px;
+        left: -30px;
+        display: none;
+        background-size: 40% auto;
+    }
+  }
+
+  /* Back Button Styles */
+.back-btn {
+    background-color: #29417D;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 900;
+    margin-right: 20px;
+    width: 145px;
+    height: 39px;
+    margin-top: 42px;
+    font-size: 16px;
+}
+
+.back-btn:hover {
+    background-color: #333;
+}
+
+/* Editable Input */
+.editable-input {
+    cursor: pointer;
+}
+
+
+
+

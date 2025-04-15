@@ -1,0 +1,24 @@
+.connecting-message {
+    /* font-size: 45px;
+    color: #fff;
+    margin-left: -30%;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50%; */
+
+    font-size: 45px;
+    position: absolute;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+
+}
+
+@media (max-width: 500px) {
+    .connecting-message {
+        display: none !important;
+    }
+  }

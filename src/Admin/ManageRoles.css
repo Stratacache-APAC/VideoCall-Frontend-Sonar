@@ -1,0 +1,236 @@
+/* ManageRoles.css */
+.manage-roles-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ddd;
+  }  @media (min-height: 769px) {
+    .mainContainer {
+      max-height: none !important;
+      overflow-y: auto !important; 
+    }
+  }
+  
+
+  
+  .manage-roles-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-left: 47px;
+    width: 100%;
+  }
+  
+  .manage-roles-title {
+    color: #29417D;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .roles-table-container {
+    overflow-x: auto;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+  }
+  
+  .roles-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .roles-table th,
+  .roles-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .roles-table th {
+    background-color: #ffa726;
+    color: #29417D;
+    font-weight: 600;
+  }
+  
+  .roles-table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .action-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .edit-button {
+    color: #007bff;
+  }
+  
+  .delete-button {
+    color: #dc3545;
+  }
+  
+  .actions-cell {
+    text-align: center;
+  }
+  
+  .action-buttons-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .add-role-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .add-role-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-role-button:hover {
+    background-color: #0056b3;
+  }
+
+  .top-image-container {
+    position: relative;
+    width: 96%;
+    height: 110px; /* Further reduced height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../resources/Top.png');
+    background-size: 45% auto; /* Further reduced size of the top image */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* ManageRoles.css */
+/* ... (existing CSS) ... */
+
+.roles-table-body {
+    overflow-y: auto;
+    max-height: 400px; /* Adjust as needed */
+    display: block;
+  }
+  
+  .roles-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .roles-table thead, .roles-table tbody {
+      display: block;
+      width: 100%;
+  }
+  
+  .roles-table tbody {
+      overflow-y: auto;
+      max-height: 250px;
+  }
+  
+  .roles-table tr {
+      display: flex;
+      width: 100%;
+  }
+  
+  .roles-table th, .roles-table td {
+      flex: 1;
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-role-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-role-container input {
+    width: 400px; /* Reduced input width */
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .roles-table-body {
+    overflow-y: auto;
+    max-height: 400px;
+    display: block;
+  }
+  
+  .roles-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .roles-table thead,
+  .roles-table tbody {
+    display: block;
+    width: 100%;
+  }
+  
+
+  
+  .roles-table tr {
+    display: flex;
+    width: 100%;
+  }
+  
+  .roles-table th,
+  .roles-table td {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    padding-left: 50px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  @media (min-height: 769px) {
+    .roles-table tbody {
+      max-height: 100%;
+    }
+  }

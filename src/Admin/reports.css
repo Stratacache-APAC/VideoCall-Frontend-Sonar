@@ -1,0 +1,285 @@
+.reports-container {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .report-name-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .report-name-input span {
+    margin-right: 10px;
+  }
+  
+  .report-name-input input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .report-actions button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-report-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-report-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .report-actions button:hover {
+    opacity: 0.8;
+  }
+  
+  .report-content {
+    display: flex;
+  }
+  
+  .report-filters {
+    width: 200px;
+    padding-right: 20px;
+  }
+  
+  .report-main {
+    flex-grow: 1;
+  }
+  
+  .report-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+  
+  .donut-chart {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#4CAF50 70%, #f0f0f0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  .donut-chart-inner {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  /* SweetAlert2 Animations */
+  .swal2-popup {
+    font-family: sans-serif;
+  }
+
+  /* Previous styles */
+
+  
+  .no-report-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #999;
+    animation: pulse 2s infinite; /* Add animation */
+  }
+  
+  @keyframes pulse {
+    0% { opacity: 0.7; }
+    50% { opacity: 1; }
+    100% { opacity: 0.7; }
+  }
+  
+  .report-actions {
+    position: absolute; /* Position the buttons */
+    top: 10px; /* Adjust top position as needed */
+    right: 10px;
+  }
+
+  .top-image-container {
+    position: relative;
+    width: 96%;
+    height: 110px; /* Further reduced height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../resources/Top.png');
+    background-size: 45% auto; /* Further reduced size of the top image */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.reports-page {
+    display: grid;
+    grid-template-columns: 13% 87%;
+  }
+  
+  .sidebar {
+    height: 100vh;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .reports-heading {
+    font-weight: bold;
+    text-align: center;
+    top: -100px;
+    position: relative;
+    margin-bottom: 21px;
+    right: 380px;
+
+  }
+  
+  .report-dropdown {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    bottom: 181px;
+    left: 303px;
+  }
+  
+  .report-dropdown select {
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 25%;
+    max-width: 400px;
+  }
+
+  
+  @media (min-width: 1751px) {
+    .report-dropdown {
+      bottom: 211px;
+    left: 392px;
+    }
+  }
+  @media (min-width: 1751px) {
+    .reports-heading  {
+      font-weight: bold;
+      text-align: center;
+      top: -130px;
+      /* font-size: 34px; */
+      position: relative;
+      margin-bottom: 21px;
+      right: 605px;
+    }
+  }
+  @media (min-width: 1300px) {
+    .report-dropdown {
+    left: 366px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .report-dropdown {
+    left: 346px;
+    }
+  }
+  .iframe-container {
+    position: relative;
+    height: auto;
+    left: 10px;
+    bottom: 14px;
+  }
+  
+  .no-report-message {
+    position: relative;
+    top: 150px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #999;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0.7;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.7;
+    }
+  }
+  
+  .report-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .report-actions button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-report-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .delete-report-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .report-actions button:hover {
+    opacity: 0.8;
+  }
+  
+  .swal2-popup {
+    font-family: sans-serif;
+  }
+
+  /* Previous styles */
+
+.swal2-html-container {
+    text-align: left;
+  }
+  
+  .swal2-html-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .swal2-html-container input,
+  .swal2-html-container select {
+    width: 85%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
