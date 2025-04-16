@@ -1,7 +1,7 @@
 import React, { useEffect, useState,useRef } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import { FaEdit, FaSave ,FaTimes} from 'react-icons/fa';
-import LogoImage from '../resources/GMR_delhi_combine_logo.png';
+// import LogoImage from '../resources/GMR_delhi_combine_logo.png';
 import BackButtonImage from '../resources/back_button_image.png';
 import 'rc-tree/assets/index.css';
 import './Operator.css';
